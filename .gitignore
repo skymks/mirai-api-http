@@ -11,3 +11,6 @@ build/
 device.json
 launcher.properties
 /config/
+/plugin-libraries/
+/plugin-shared-libraries/
+/mirai-console-main/mirai-console-main.iml

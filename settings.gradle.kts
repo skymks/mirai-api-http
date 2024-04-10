@@ -1,6 +1,8 @@
 pluginManagement {
     repositories {
-        mavenLocal()
+//        if (System.getProperty("use.maven.local") == "true") {
+//            mavenLocal()
+//        }
         maven(url = "https://maven.aliyun.com/repository/public")
         google()
         mavenCentral()

@@ -9,7 +9,7 @@ plugins {
 }
 
 val ktorVersion: String by rootProject.extra
-val mockVersion = "2.15.0"
+val mockVersion = "2.16.0"
 
 dependencies {
 

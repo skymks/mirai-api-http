@@ -51,6 +51,7 @@ fun Application.httpModule(adapter: HttpAdapter) {
     friendManageRouter()
     groupManageRouter()
     aboutRouter()
+    loginRouter()
     fileRouter()
     commandRouter()
     announcementRouter()

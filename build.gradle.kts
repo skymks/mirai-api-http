@@ -1,13 +1,15 @@
 plugins {
     id("io.codearte.nexus-staging") version "0.30.0"
     id("me.him188.maven-central-publish") version "1.0.0" // to retrieve credentials
-    id("net.mamoe.mirai-console") version "2.16.0-RC" apply false
+    id("net.mamoe.mirai-console") version "2.16.0" apply false
 }
 
 buildscript {
 
     repositories {
-        mavenLocal()
+//        if (System.getProperty("use.maven.local") == "true") {
+//            mavenLocal()
+//        }
         maven(url = "https://maven.aliyun.com/repository/public")
         mavenCentral()
         gradlePluginPortal()
